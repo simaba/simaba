@@ -19,8 +19,6 @@ flowchart TD
     GOV[🏛️ enterprise-ai-governance-playbook\nEnd-to-end governance framework]
     REL[✅ ai-release-readiness-checklist\nRelease gate CLI · pip install ai-release-checklist]
     NIST[📋 nist-ai-rmf-implementation-guide\nNIST AI RMF practitioner guide]
-    RISK[⚠️ ai-risk-taxonomy\nStructured risk taxonomy]
-    LLM[🤖 llm-governance-readiness-framework\nLLM-specific governance maturity]
     RELGOV[🔄 ai-release-governance-framework\nRelease lifecycle governance]
     ACC[🔍 ai-accountability-design-patterns\nAccountability design patterns]
     MA[🕸️ multi-agent-governance-framework\nMulti-agent oversight & trust]
@@ -57,7 +55,6 @@ flowchart TD
 |---|---|---|
 | Organizational Governance | [enterprise-ai-governance-playbook](https://github.com/simaba/governance-playbook) | End-to-end AI governance framework — policies, roles, NIST AI RMF implementation |
 | NIST AI RMF | [nist-ai-rmf-implementation-guide](https://github.com/simaba/nist-rmf-guide) | Practitioner guide to NIST AI RMF with EU AI Act cross-reference |
-| Risk Management | [ai-risk-taxonomy](https://github.com/simaba/ai-risk-taxonomy) | Structured risk taxonomy mapped to NIST AI RMF and EU AI Act |
 | Accountability | [ai-accountability-design-patterns](https://github.com/simaba/accountability-patterns) | Design patterns for human oversight, transparency, and redress |
 
 ### Release & Deployment
@@ -67,7 +64,6 @@ flowchart TD
 | Release Gates | [ai-release-readiness-checklist](https://github.com/simaba/release-checklist) | YAML-based release checklist + `airc` CLI · `pip install ai-release-checklist` |
 | Release Lifecycle | [ai-release-governance-framework](https://github.com/simaba/release-governance) | Full release lifecycle governance — from development through retirement |
 | Starter Template | [regulated-ai-starter-kit](https://github.com/simaba/regulated-ai) | GitHub template: governance docs + CI gates ready to use |
-| LLM Governance | [llm-governance-readiness-framework](https://github.com/simaba/llm-governance-readiness-framework) | LLM-specific governance maturity framework mapped to NIST AI RMF |
 
 ### Multi-Agent & Evaluation
 
