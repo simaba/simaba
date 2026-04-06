@@ -4,7 +4,7 @@
 
 Building trustworthy, auditable AI for regulated industries — healthcare, financial services, insurance, and government.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/simabagheri)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/simaba/)
 [![Medium](https://img.shields.io/badge/Medium-Read-000000?style=flat-square&logo=medium)](https://medium.com/@simabagheri)
 [![NIST AI RMF](https://img.shields.io/badge/NIST%20AI%20RMF-Aligned-0055A4?style=flat-square)](https://airc.nist.gov/home)
 
@@ -101,4 +101,4 @@ airc report release-checklist.yaml --format markdown  # Generate report
 ---
 
 *Building in the open. All frameworks are MIT licensed and free to use.*
-*[Discussions](https://github.com/simaba/enterprise-ai-governance-playbook/discussions) · [LinkedIn](https://www.linkedin.com/in/simabagheri) · [Medium](https://medium.com/@simabagheri)*
+*[Discussions](https://github.com/simaba/enterprise-ai-governance-playbook/discussions) · [LinkedIn](https://www.linkedin.com/in/simaba/) · [Medium](https://medium.com/@simabagheri)*
