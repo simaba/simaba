@@ -61,3 +61,10 @@ flowchart TD
 ---
 
 *All repositories are shared in a personal capacity. Questions and collaborations welcome.*
+
+
+## New in Phase 2
+
+| Governance Resources | [awesome-ai-governance](https://github.com/simaba/awesome-ai-governance) | Curated list of 50+ AI governance frameworks, tools, and regulations |
+| Starter Template | [regulated-ai-starter-kit](https://github.com/simaba/regulated-ai-starter-kit) | Template repo for regulated-industry AI teams — governance docs + CI out of the box |
+| NIST AI RMF Guide | [nist-ai-rmf-implementation-guide](https://github.com/simaba/nist-ai-rmf-implementation-guide) | Practitioner implementation guide for NIST AI RMF with code examples and EU AI Act mapping |
