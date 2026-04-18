@@ -17,7 +17,7 @@ All repositories form an interconnected governance and reliability framework:
 ```mermaid
 flowchart TD
     GOV["🏛️ governance-playbook<br/>End-to-end governance framework"]
-    REL["✅ release-checklist<br/>Release gate CLI · pip install ai-release-checklist"]
+    REL["✅ release-checklist<br/>Release gate CLI · install from source"]
     NIST["📋 nist-rmf-guide<br/>NIST AI RMF practitioner guide"]
     RELGOV["🔄 release-governance<br/>Release lifecycle governance"]
     ACC["🔍 accountability-patterns<br/>Accountability design patterns"]
@@ -59,7 +59,7 @@ flowchart TD
 
 | Area | Repository | What it solves |
 |---|---|---|
-| Release Gates | [release-checklist](https://github.com/simaba/release-checklist) | YAML-based release checklist + `airc` CLI · `pip install ai-release-checklist` |
+| Release Gates | [release-checklist](https://github.com/simaba/release-checklist) | YAML-based release checklist + `release-checklist` CLI · install from source (PyPI coming soon) |
 | Release Lifecycle | [release-governance](https://github.com/simaba/release-governance) | Full release lifecycle governance — from development through retirement |
 | Starter Template | [regulated-ai](https://github.com/simaba/regulated-ai) | GitHub template: governance docs + CI gates ready to use |
 
@@ -85,11 +85,13 @@ flowchart TD
 
 ```bash
 # Validate AI release readiness from the command line
-pip install ai-release-checklist
-
-airc init --industry healthcare     # Generate a HIPAA-aware checklist
-airc validate release-checklist.yaml  # Check all gates
-airc report release-checklist.yaml --format markdown  # Generate report
+# Install from source (PyPI package coming soon)
+git clone https://github.com/simaba/release-checklist.git
+cd release-checklist
+python -m pip install -e .
+release-checklist init --industry healthcare
+release-checklist validate configs/medium-risk-example.yaml
+release-checklist report configs/medium-risk-example.yaml --format markdown
 ```
 
 ---
