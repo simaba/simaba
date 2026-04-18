@@ -16,18 +16,18 @@ All repositories form an interconnected governance and reliability framework:
 
 ```mermaid
 flowchart TD
-    GOV[🏛️ governance-playbook\nEnd-to-end governance framework]
-    REL[✅ release-checklist\nRelease gate CLI · pip install ai-release-checklist]
-    NIST[📋 nist-rmf-guide\nNIST AI RMF practitioner guide]
-    RELGOV[🔄 release-governance\nRelease lifecycle governance]
-    ACC[🔍 accountability-patterns\nAccountability design patterns]
-    MA[🕸️ multi-agent-governance\nMulti-agent oversight & trust]
-    MAOP[⚙️ agent-orchestration\nOrchestration pattern catalog]
-    EVAL[📊 agent-eval\nAgent evaluation dimensions]
-    SIM[🧪 agent-simulator\nAgent behavior simulation]
-    LSS[📈 lean-ai-ops\nAI Process Excellence · Lean Six Sigma]
-    STARTER[🚀 regulated-ai\nTemplate repo for regulated AI teams]
-    PRISM[⭐ ai-prism\nPRISM · Curated governance resources]
+    GOV["🏛️ governance-playbook<br/>End-to-end governance framework"]
+    REL["✅ release-checklist<br/>Release gate CLI · pip install ai-release-checklist"]
+    NIST["📋 nist-rmf-guide<br/>NIST AI RMF practitioner guide"]
+    RELGOV["🔄 release-governance<br/>Release lifecycle governance"]
+    ACC["🔍 accountability-patterns<br/>Accountability design patterns"]
+    MA["🕸️ multi-agent-governance<br/>Multi-agent oversight & trust"]
+    MAOP["⚙️ agent-orchestration<br/>Orchestration pattern catalog"]
+    EVAL["📊 agent-eval<br/>Agent evaluation dimensions"]
+    SIM["🧪 agent-simulator<br/>Agent behavior simulation"]
+    LSS["📈 lean-ai-ops<br/>AI Process Excellence · Lean Six Sigma"]
+    STARTER["🚀 regulated-ai<br/>Template repo for regulated AI teams"]
+    PRISM["⭐ ai-prism<br/>PRISM · Curated governance resources"]
 
     GOV --> REL
     GOV --> NIST
