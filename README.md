@@ -8,9 +8,9 @@ I build open-source repositories around trustworthy, auditable AI for regulated 
 [![Medium](https://img.shields.io/badge/Medium-Read-000000?style=flat-square&logo=medium)](https://medium.com/@bagheri.sima)
 [![NIST AI RMF](https://img.shields.io/badge/NIST%20AI%20RMF-Informed-0055A4?style=flat-square)](https://airc.nist.gov/home)
 
-## Start here
+## Portfolio guide
 
-If you want to know where to begin, use this guide:
+Use this guide to choose the right starting point:
 
 | Goal | Start with | Maturity |
 |---|---|---|
@@ -18,15 +18,15 @@ If you want to know where to begin, use this guide:
 | Validate AI release readiness with a working CLI | [`release-checklist`](https://github.com/simaba/release-checklist) | Alpha working tool |
 | Understand release-stage governance | [`release-governance`](https://github.com/simaba/release-governance) | Framework |
 | Apply NIST AI RMF in practice | [`nist-rmf-guide`](https://github.com/simaba/nist-rmf-guide) | Practitioner guide |
-| Start a new regulated-AI repo from a template | [`regulated-ai`](https://github.com/simaba/regulated-ai) | Template repo |
+| Start a new regulated-AI repository from a template | [`regulated-ai`](https://github.com/simaba/regulated-ai) | Template repository |
 | Explore multi-agent governance and control patterns | [`multi-agent-governance`](https://github.com/simaba/multi-agent-governance) | Framework |
 | See runnable multi-agent behavior in code | [`agent-simulator`](https://github.com/simaba/agent-simulator) | Runnable demo |
 | Use AI for structured process-improvement work | [`lean-ai-ops`](https://github.com/simaba/lean-ai-ops) | Working app |
 | Browse curated governance resources | [`ai-prism`](https://github.com/simaba/ai-prism) | Resource hub |
 
-## Coming from Medium?
+## Medium article map
 
-My Medium articles describe the operating problems. These repositories translate those ideas into reusable artifacts, templates, and tools.
+My Medium articles describe operating problems in AI governance and delivery. These repositories translate those ideas into reusable artifacts, templates, and tools.
 
 | Medium theme | Use this repository | Practical next step |
 |---|---|---|
@@ -64,10 +64,10 @@ My Medium articles describe the operating problems. These repositories translate
 
 | Repository | Type | What it does |
 |---|---|---|
-| [`regulated-ai`](https://github.com/simaba/regulated-ai) | Template repo | Governance docs, release stubs, and starter workflows |
+| [`regulated-ai`](https://github.com/simaba/regulated-ai) | Template repository | Governance docs, release stubs, and starter workflows |
 | [`ai-prism`](https://github.com/simaba/ai-prism) | Reference hub | Curated governance frameworks, tools, standards, and papers |
 
-## How the repos fit together
+## How the repositories fit together
 
 ```mermaid
 flowchart TD
@@ -112,7 +112,7 @@ These repositories are practitioner resources shared in a personal capacity. The
 
 References to NIST AI RMF, EU AI Act, ISO/IEC 42001, and related standards are self-assessed, practitioner mappings. Always verify against official sources before using them for compliance, safety, or release decisions.
 
-## Featured command-line quick start
+## Featured command-line example
 
 ```bash
 git clone https://github.com/simaba/release-checklist.git
