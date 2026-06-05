@@ -38,65 +38,27 @@ My Medium articles describe operating problems in AI governance and delivery. Th
 | EU AI Act and regulated-AI readiness | [`nist-rmf-guide`](https://github.com/simaba/nist-rmf-guide), [`regulated-ai`](https://github.com/simaba/regulated-ai), [`ai-prism`](https://github.com/simaba/ai-prism) | Start with a gap assessment and template kit |
 | Multi-agent systems need control logic, evaluation, and escalation paths | [`multi-agent-governance`](https://github.com/simaba/multi-agent-governance), [`agent-eval`](https://github.com/simaba/agent-eval), [`agent-simulator`](https://github.com/simaba/agent-simulator) | Review the evaluation framework, then run the simulator |
 
-## Portfolio map by artifact type
+## Portfolio architecture
 
-### Working tools and apps
+The repositories are organized as artifact families, not as a single linear dependency chain.
 
-| Repository | Type | What it does |
+| Layer | Repositories | Role |
 |---|---|---|
-| [`release-checklist`](https://github.com/simaba/release-checklist) | CLI | Validates YAML-based release-readiness configurations |
-| [`agent-simulator`](https://github.com/simaba/agent-simulator) | Runnable demo | Simulates bounded multi-agent workflows |
-| [`lean-ai-ops`](https://github.com/simaba/lean-ai-ops) | Streamlit app | Generates DMAIC-style improvement packages with analytics |
+| **Reference and standards** | [`ai-prism`](https://github.com/simaba/ai-prism), [`nist-rmf-guide`](https://github.com/simaba/nist-rmf-guide) | Curated references and practitioner mappings for governance, risk, standards, and regulatory concepts |
+| **Operating model** | [`governance-playbook`](https://github.com/simaba/governance-playbook), [`accountability-patterns`](https://github.com/simaba/accountability-patterns) | Defines ownership, decision rights, governance routines, accountability, oversight, escalation, and redress |
+| **Release readiness** | [`release-governance`](https://github.com/simaba/release-governance), [`release-checklist`](https://github.com/simaba/release-checklist), [`regulated-ai`](https://github.com/simaba/regulated-ai) | Turns governance into release gates, templates, checklists, and reusable starter artifacts |
+| **Agent systems** | [`multi-agent-governance`](https://github.com/simaba/multi-agent-governance), [`agent-orchestration`](https://github.com/simaba/agent-orchestration), [`agent-eval`](https://github.com/simaba/agent-eval), [`agent-simulator`](https://github.com/simaba/agent-simulator) | Applies governance, orchestration, evaluation, and simulation patterns to agentic systems |
+| **Process excellence** | [`lean-ai-ops`](https://github.com/simaba/lean-ai-ops) | Demonstrates AI-assisted process improvement with DMAIC-style outputs, analytics, and exports |
 
-### Frameworks and practitioner guides
+### Recommended review paths
 
-| Repository | Type | What it does |
-|---|---|---|
-| [`governance-playbook`](https://github.com/simaba/governance-playbook) | Playbook | End-to-end AI operating model |
-| [`release-governance`](https://github.com/simaba/release-governance) | Framework | Release lifecycle governance and gates |
-| [`nist-rmf-guide`](https://github.com/simaba/nist-rmf-guide) | Guide | Practitioner implementation guide for NIST AI RMF |
-| [`accountability-patterns`](https://github.com/simaba/accountability-patterns) | Pattern catalog | Accountability, oversight, and redress patterns |
-| [`multi-agent-governance`](https://github.com/simaba/multi-agent-governance) | Framework | Trust, oversight, and accountability for multi-agent systems |
-| [`agent-orchestration`](https://github.com/simaba/agent-orchestration) | Pattern catalog | Routing, delegation, validation, and failure-handling patterns |
-| [`agent-eval`](https://github.com/simaba/agent-eval) | Evaluation framework | Agent evaluation dimensions, scenarios, and reporting structure |
-
-### Templates and reference hubs
-
-| Repository | Type | What it does |
-|---|---|---|
-| [`regulated-ai`](https://github.com/simaba/regulated-ai) | Template repository | Governance docs, release stubs, and starter workflows |
-| [`ai-prism`](https://github.com/simaba/ai-prism) | Reference hub | Curated governance frameworks, tools, standards, and papers |
-
-## How the repositories fit together
-
-```mermaid
-flowchart TD
-    GOV["governance-playbook"]
-    NIST["nist-rmf-guide"]
-    RELGOV["release-governance"]
-    RELCHK["release-checklist"]
-    STARTER["regulated-ai"]
-    ACC["accountability-patterns"]
-    MAGOV["multi-agent-governance"]
-    ORCH["agent-orchestration"]
-    EVAL["agent-eval"]
-    SIM["agent-simulator"]
-    LSS["lean-ai-ops"]
-    PRISM["ai-prism"]
-
-    GOV --> RELGOV
-    GOV --> NIST
-    GOV --> ACC
-    RELGOV --> RELCHK
-    NIST --> STARTER
-    ACC --> MAGOV
-    MAGOV --> ORCH
-    MAGOV --> EVAL
-    EVAL --> SIM
-    SIM --> LSS
-    PRISM -.-> GOV
-    PRISM -.-> NIST
-```
+| Reviewer goal | Suggested path |
+|---|---|
+| Understand the governance thesis | `governance-playbook` → `accountability-patterns` → `release-governance` |
+| See a working tool quickly | `release-checklist` → `lean-ai-ops` → `agent-simulator` |
+| Review regulated-AI readiness artifacts | `nist-rmf-guide` → `regulated-ai` → `release-checklist` |
+| Evaluate agent-system thinking | `multi-agent-governance` → `agent-orchestration` → `agent-eval` → `agent-simulator` |
+| Connect articles to reusable implementation artifacts | Medium articles → relevant repository from the article map above |
 
 ## Design principles across the portfolio
 
