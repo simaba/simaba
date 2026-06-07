@@ -1,4 +1,4 @@
-# Hi, I'm Sima Bagheri 👋
+# Hi, I'm Sima Bagheri
 
 **AI Governance · Release Readiness · Enterprise AI Platforms · Multi-Agent Systems · Process Excellence**
 
@@ -6,4 +6,12 @@ I build open-source tools, templates, and frameworks for trustworthy, auditable 
 
 My focus: making AI systems **releasable**, **accountable**, and **governable**, not just capable.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo
+[LinkedIn](https://www.linkedin.com/in/simaba/) · [Medium](https://medium.com/@bagheri.sima)
+
+---
+
+## What I'm building
+
+I work at the intersection of AI systems and operational rigor: governance frameworks, release-readiness tools, accountability patterns, agent-evaluation methods, and process-improvement applications.
+
+The goal is practical:
