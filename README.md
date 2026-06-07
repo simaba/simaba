@@ -6,12 +6,4 @@ I build open-source tools, templates, and frameworks for trustworthy, auditable 
 
 My focus: making AI systems **releasable**, **accountable**, and **governable**, not just capable.
 
-[LinkedIn](https://www.linkedin.com/in/simaba/) · [Medium](https://medium.com/@bagheri.sima)
-
----
-
-## What I'm building
-
-I work at the intersection of AI systems and operational rigor: governance frameworks, release-readiness tools, accountability patterns, agent-evaluation methods, and process-improvement applications.
-
-The goal is practical:
+[LinkedIn](https://www.linkedin.com/in/simaba/) · [Medium](https://medium.com/@bagheri.sima) · [NIST AI RMF-informed
