@@ -8,6 +8,18 @@ I build open-source repositories around trustworthy, auditable AI for regulated 
 [![Medium](https://img.shields.io/badge/Medium-Read-000000?style=flat-square&logo=medium)](https://medium.com/@bagheri.sima)
 [![NIST AI RMF](https://img.shields.io/badge/NIST%20AI%20RMF-Informed-0055A4?style=flat-square)](https://airc.nist.gov/home)
 
+## Featured work
+
+A deliberately small set of starting points across the portfolio:
+
+| Track | Start with | What it demonstrates |
+|---|---|---|
+| **Flagship working tools** | [`release-checklist`](https://github.com/simaba/release-checklist), [`automotive-llm-eval-harness`](https://github.com/simaba/automotive-llm-eval-harness), [`lean-ai-ops`](https://github.com/simaba/lean-ai-ops) | Release evidence validation, synthetic LLM evaluation, and structured continuous improvement |
+| **Program-management toolkit** | [`everything-program-management`](https://github.com/simaba/everything-program-management) | Reusable agents, templates, examples, schemas, and a lightweight validation CLI |
+| **Emerging engineering experiments** | [`agent-simulator`](https://github.com/simaba/agent-simulator), [`prompt-harness-translator`](https://github.com/simaba/prompt-harness-translator), [`harness-bench`](https://github.com/simaba/harness-bench), [`decision-journal-agent`](https://github.com/simaba/decision-journal-agent) | Bounded multi-agent behavior, prompt portability, transparent benchmark scoring, and decision review workflows |
+| **Practitioner frameworks** | [`governance-playbook`](https://github.com/simaba/governance-playbook), [`agent-eval`](https://github.com/simaba/agent-eval), [`ai-platform-pm-playbook`](https://github.com/simaba/ai-platform-pm-playbook) | AI operating models, agent evaluation, and AI-platform product management |
+| **Risk and controls** | [`ai-act-compliance-agents`](https://github.com/simaba/ai-act-compliance-agents), [`mcp-agent-risk-checklist`](https://github.com/simaba/mcp-agent-risk-checklist), [`multi-agent-governance`](https://github.com/simaba/multi-agent-governance) | Traceability, agent-tool risk review, oversight, and accountability |
+
 ## Portfolio guide
 
 Use this guide to choose the right starting point:
@@ -16,11 +28,14 @@ Use this guide to choose the right starting point:
 |---|---|---|
 | Understand the full operating model for enterprise AI | [`governance-playbook`](https://github.com/simaba/governance-playbook) | Practitioner playbook |
 | Validate AI release readiness with a working CLI | [`release-checklist`](https://github.com/simaba/release-checklist) | Alpha working tool |
+| Evaluate synthetic LLM-powered in-vehicle assistant behavior | [`automotive-llm-eval-harness`](https://github.com/simaba/automotive-llm-eval-harness) | Working prototype |
+| Build structured program-management artifacts and validate key fields | [`everything-program-management`](https://github.com/simaba/everything-program-management) | Foundation release |
 | Understand release-stage governance | [`release-governance`](https://github.com/simaba/release-governance) | Framework |
 | Apply NIST AI RMF in practice | [`nist-rmf-guide`](https://github.com/simaba/nist-rmf-guide) | Practitioner guide |
 | Start a new regulated-AI repository from a template | [`regulated-ai`](https://github.com/simaba/regulated-ai) | Template repository |
 | Explore multi-agent governance and control patterns | [`multi-agent-governance`](https://github.com/simaba/multi-agent-governance) | Framework |
 | See runnable multi-agent behavior in code | [`agent-simulator`](https://github.com/simaba/agent-simulator) | Runnable demo |
+| Review MCP server and agent-tool risk before integration | [`mcp-agent-risk-checklist`](https://github.com/simaba/mcp-agent-risk-checklist) | Initial review toolkit |
 | Use AI for structured process-improvement work | [`lean-ai-ops`](https://github.com/simaba/lean-ai-ops) | Working app |
 | Browse curated governance resources | [`ai-prism`](https://github.com/simaba/ai-prism) | Resource hub |
 
@@ -45,8 +60,13 @@ My Medium articles describe operating problems in AI governance and delivery. Th
 | Repository | Type | What it does |
 |---|---|---|
 | [`release-checklist`](https://github.com/simaba/release-checklist) | CLI | Validates YAML-based release-readiness configurations |
+| [`automotive-llm-eval-harness`](https://github.com/simaba/automotive-llm-eval-harness) | CLI | Scores synthetic LLM evaluation cases with safety/privacy hard gates |
+| [`everything-program-management`](https://github.com/simaba/everything-program-management) | Toolkit + CLI | Produces and validates structured PM artifacts |
 | [`agent-simulator`](https://github.com/simaba/agent-simulator) | Runnable demo | Simulates bounded multi-agent workflows |
 | [`lean-ai-ops`](https://github.com/simaba/lean-ai-ops) | Streamlit app | Generates DMAIC-style improvement packages with analytics |
+| [`decision-journal-agent`](https://github.com/simaba/decision-journal-agent) | CLI | Creates and reviews local Markdown decision-journal entries |
+| [`prompt-harness-translator`](https://github.com/simaba/prompt-harness-translator) | CLI | Translates simple YAML-frontmatter agent Markdown to supported target formats |
+| [`harness-bench`](https://github.com/simaba/harness-bench) | CLI | Scores normalized synthetic agent-harness run artifacts |
 
 ### Frameworks and practitioner guides
 
@@ -59,6 +79,9 @@ My Medium articles describe operating problems in AI governance and delivery. Th
 | [`multi-agent-governance`](https://github.com/simaba/multi-agent-governance) | Framework | Trust, oversight, and accountability for multi-agent systems |
 | [`agent-orchestration`](https://github.com/simaba/agent-orchestration) | Pattern catalog | Routing, delegation, validation, and failure-handling patterns |
 | [`agent-eval`](https://github.com/simaba/agent-eval) | Evaluation framework | Agent evaluation dimensions, scenarios, and reporting structure |
+| [`ai-platform-pm-playbook`](https://github.com/simaba/ai-platform-pm-playbook) | Playbook | Templates and frameworks for AI-platform and agent-product work |
+| [`ai-act-compliance-agents`](https://github.com/simaba/ai-act-compliance-agents) | Prototype toolkit | Structured traceability drafting and accountable-review support |
+| [`mcp-agent-risk-checklist`](https://github.com/simaba/mcp-agent-risk-checklist) | Review toolkit | Structured risk review for MCP servers, tools, and agent integrations |
 
 ### Templates and reference hubs
 
@@ -75,24 +98,38 @@ flowchart TD
     NIST["nist-rmf-guide"]
     RELGOV["release-governance"]
     RELCHK["release-checklist"]
+    AUTOEVAL["automotive-llm-eval-harness"]
+    EPM["everything-program-management"]
     STARTER["regulated-ai"]
     ACC["accountability-patterns"]
     MAGOV["multi-agent-governance"]
     ORCH["agent-orchestration"]
     EVAL["agent-eval"]
     SIM["agent-simulator"]
+    PLATFORM["ai-platform-pm-playbook"]
+    MCP["mcp-agent-risk-checklist"]
+    TRANS["prompt-harness-translator"]
+    BENCH["harness-bench"]
+    DECISION["decision-journal-agent"]
     LSS["lean-ai-ops"]
     PRISM["ai-prism"]
 
     GOV --> RELGOV
     GOV --> NIST
     GOV --> ACC
+    GOV --> PLATFORM
     RELGOV --> RELCHK
+    RELCHK --> AUTOEVAL
+    EPM --> RELCHK
     NIST --> STARTER
     ACC --> MAGOV
     MAGOV --> ORCH
     MAGOV --> EVAL
+    MAGOV --> MCP
     EVAL --> SIM
+    EVAL --> BENCH
+    ORCH --> TRANS
+    DECISION -.-> EPM
     SIM --> LSS
     PRISM -.-> GOV
     PRISM -.-> NIST
